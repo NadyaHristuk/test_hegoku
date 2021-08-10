@@ -1,8 +1,8 @@
 const { Router } = require("express");
-const config = require("config");
+
 const Link = require("../models/Link");
 const shortid = require("shortid");
-require('dotenv').config()
+require("dotenv").config();
 const auth = require("../middlewere/auth.middleware");
 const router = Router();
 
